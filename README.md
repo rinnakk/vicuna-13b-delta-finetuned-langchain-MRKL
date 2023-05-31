@@ -16,5 +16,5 @@ python3 format.py
 
 **NOTE**:
 we really only use 15 examples for finetune, but we mix data (sharegpt + 32*my.json + moss-003-sft-data).
-only train one epoch with mixed data.
+And only train one epoch with mixed data.
 
