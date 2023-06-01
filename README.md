@@ -4,6 +4,8 @@ vicuna-13b-delta-finetuned-langchain-MRKL is a Vicuna-13B v1.1 model fine-tuned 
 
 ## Model Weights
 
+cd model
+
 python3 apply_delta.py --base /path/to/model_weights/llama-13b --target rinna-vicuna-13b-finetuned-langchain-MRKL --delta /path/to/model_weights/vicuna-13b-delta-finetuned-langchain-MRKL
 
 
@@ -11,6 +13,7 @@ python3 apply_delta.py --base /path/to/model_weights/llama-13b --target rinna-vi
 
 
 ## Training data
+cd data
 
 python3 format.py 
 
